@@ -1,0 +1,1 @@
+function dtheta = dtheta(X, y, theta)% Performs derivation of cost function for theta vector% Initialize some useful valuesm = length(y); % number of training examplesh = theta' * X';dtheta = ((h-y')*X)/m;dtheta = dtheta';end
